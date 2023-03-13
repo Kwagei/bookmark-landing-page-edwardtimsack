@@ -1,0 +1,191 @@
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    body{
+        font-family: 'Poppins';
+    }
+    .top {
+        /* background-color: #fb5859; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* flex-direction: column-reverse; */
+    }
+    .top img{
+        width: 200px;
+        /* background-color: aqua; */
+    }
+    .top svg{
+        width: 80px;
+        height: 60px;
+        font-size: 80px;
+        margin-top: 20px;
+    }
+    .logo img{
+        width: 200px;
+        height: 50px;
+        /* background-color: violet; */
+        margin-left: 80px;
+    }
+
+    .links{
+        display: none;
+    }
+    .para{
+        width: auto;
+        text-align: center;
+    }
+   .container p{
+    text-align: center;
+    /* margin-top: 60px; */
+    background-color: aqua;
+   }
+   #quests {
+    text-align: center;
+    /* background-color: rgb(0, 255, 51); */
+    flex-direction: column;
+
+   }
+   .logo2 img{
+    width: 43rem;
+    height: 280px;
+    background-color: violet;
+    /* margin-left: 80px; */
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+}
+   .second{
+
+   }
+    .logo{
+        /* justify-content: space-evenly; */
+        background-color: white;
+        /* padding-left: 100px; */
+    }
+    .logo img{
+        width: 600px;
+        height: 380px;
+        /* position: center; */
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .second{
+        width: auto;
+        height: 200px;
+        margin-right: 20%;
+        /* background: yellowgreen; */
+        /* padding: 1rem; */
+    }
+    .second p{
+        font-size: 16px;
+        width: 300px;
+        height: 140px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    .memes{
+        /* background-color: blue; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        
+    }
+    hr{
+        width: 340px;
+    }
+    .memes a{
+        font-size: 15px;
+    }
+    .logo2{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .logo2 img{
+        margin-right: 40px;
+        right: 6rem;
+    }
+    .para2{
+        width: 35rem;
+        align-items: center;
+        justify-content: center;
+        /* background-color: turquoise; */
+        text-align: center;
+        margin-left: 150px;
+    }
+    .para2 button{
+        /* align-items: center; */
+        /* left: 30px; */
+    }
+    .mid{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        /* background-color: wheat; */
+        /* top: 6rem; */
+    }
+    .mid h1{
+        /* bottom: 13rem; */
+    }
+    .mid p{
+        /* top: auto; */
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    /* .browsers{
+        width: auto;
+        background-color:blue;
+        justify-content: center;
+
+    } */
+    /* .chrome{
+        width: 200px;
+    } */
+    .chrome img{
+        /* right: 2rem; */
+    }
+.chrome button{
+    /* right: 2rem; */
+}
+/* .firefox{
+    width: 200px;
+}
+.opera{
+    width: 200px;
+    margin-right: 20px;
+}
+} */
+
+.browsers{
+    flex-direction: column;
+    align-items: center;
+
+}
+#chrome h3{
+    justify-content: center;
+    /* margin-left: 20px; */
+    align-items: center;
+}
+.extensions-box button{
+ padding: 15px;
+}
+}
+.link{
+    width: auto;
+    display: flex;
+    padding: 0;
+}
+.last{
+    display: flex;
+    padding: 0;
+    width: auto;
+    /* background-color: yellow; */
+    justify-content: space-around;
+}
+

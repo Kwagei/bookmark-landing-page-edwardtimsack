@@ -1,0 +1,92 @@
+@media only screen and (max-width: 428px){
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .top img{
+        width: 100px;
+        /* background-color: aqua; */
+        padding: 0;
+    }
+    #hamburger-menu{
+        margin-top: 30px;
+        /* background-color: blueviolet; */
+        height: 30px;
+    }
+    .logo{
+        background-color: none;
+    }
+    
+    .logo img{
+        width: 200px;
+        height: 50px;
+        /* background-color: yellowgreen; */
+        padding: 0;
+        font-size: 20px;
+    }
+    #peace{
+        background-color: violet;
+        width: 26rem;
+        height: 15rem;
+        margin: 0;
+    }
+    .para h1{
+        font-size: 20px;
+        align-items: center;
+        right: 20px;
+    }
+    .para p{
+        align-items: center;
+        line-break: normal;
+    }
+    .memes{
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: auto;
+        /* height: auto; */
+        /* background-color: aqua; */
+        /* padding: 1rem 3rem; */
+        border-top: 1px solid #C2C2C6;
+        border-bottom: 1px solid #C2C2C6;
+        /* align-items: bottom; */
+    }
+    .memes a{
+        flex-direction: r;
+        text-align: justify;
+        text-align: center;
+    }
+    #win{
+        background-color: tomato;
+        width: 23rem;
+        top: 250px;
+    }
+    .para2{
+        flex-direction: column;
+        display: flex;
+        background-color: aqua;
+        width: 32rem;
+        margin-bottom: 150px;
+        margin-bottom: 2rem;
+        padding-top: 2rem;
+        /* margin-left: -10rem; */
+        padding: 0;
+    }
+.question-asked{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: burlywood;
+}
+.extensions-box{
+    display: flex;
+    flex-direction: column;
+}
+.browser{
+    width: 24rem;
+    background-color: burlywood;
+}
+
+
+    
+}
